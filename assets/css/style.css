@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-family: 'Open Sans';
+    color: #000F08;
+    text-align: center;
+}
+nav {
+    background-color: #000F08;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    padding: 20px;
+}
+nav li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+.icono{
+    width: 40px;
+    fill: white;
+}
+
+header{
+    text-align: right;
+    background-image: url("../img/bg-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    padding: 100px;
+    text-shadow: 0px 3px 6px #00000080;
+}
+header h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+header h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+#ubicacion {
+    padding: 150px;
+}
+#ubicacion h2 {
+    font-size: 45px;
+    margin: 40px 0px 20px 0px;
+}
+#ubicacion p {
+    font-size: 25px;
+}
+#proxima-charla {
+    background-color: #A4452C;
+    padding: 100px;
+    color: white;
+}
+#proxima-charla img{
+    height: 300px;
+}
+#proxima-charla img, .charla-texto{    
+    display: inline-block;
+    vertical-align: middle;
+}
+#proxima-charla .charla-texto{
+    text-align: left;
+    width: 40%;
+    margin-left: 40px;
+}
+#proxima-charla .charla-texto h2{
+    font-size: 45px;
+}
+#proxima-charla .charla-texto h3{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+#proxima-charla .charla-texto h4{
+    font-size: 33px;
+}
+#proxima-charla .charla-texto h5{
+    font-size: 20px;
+}
+#proxima-charla .charla-texto p{
+    font-size: 25px;
+}
+#proxima-charla .charla-texto h4, h5, p{
+    font-weight: 400;
+}
+.charla-texto {
+width: 75%;
+text-align: justify;
+text-justify: inter-word;
+text-align: left; 
+margin: 0em auto;
+padding-bottom: 20px;
+padding-top: 60px;
+}
+#eventos{
+    padding: 100px;
+}
+#eventos h2{
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+#eventos article{
+    display: inline-block;
+    margin: 20px;
+}
+#eventos article h3{
+    margin-top: 30px;
+    font-size: 35px;
+}
+#event h2{
+    text-align: left;
+    font-size: 45px;
+padding-left: 148px;
+padding-top: 45px;
+padding-bottom: 40px;
+}
+footer{
+    background-color: #000F08;
+    color: white;
+    font-size: 25px;
+    padding: 100px;
+}
+footer i {
+    font-size: 60px;
+    color:white;
+    margin-left: 20px;
+}
+footer p {
+    margin-top: 25px;
+}
